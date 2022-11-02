@@ -7,6 +7,7 @@ import './css/header.css';
 import './css/back.css';
 import './css/title-data.css';
 import './css/data.css';
+import './css/foot.css';
 
 const App = () => {
   const [buttonPopup, setButtonPopup] = useState(false)
@@ -108,6 +109,12 @@ const App = () => {
           </div>
         </section>
       </body>
+      <footer>
+        <div className="foot">
+          <hr />
+          <h6>Developed by Pixel Wave</h6>
+        </div>
+      </footer>
     </main>
   );
 }
